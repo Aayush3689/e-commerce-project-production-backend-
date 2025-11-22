@@ -7,7 +7,7 @@ export const createApp = () => {
   const app = express();
 
   // deafult middlewares
-  app.use(cors)
+  app.use(cors())
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
 

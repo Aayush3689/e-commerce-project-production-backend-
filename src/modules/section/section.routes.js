@@ -1,8 +1,8 @@
 import { Router } from "express";
-import { sectionHandler } from "./section.controller.js";
+import { listSectionsHandler } from "./section.controller.js";
 
 const router = Router();
 
-router.get("/", sectionHandler);
+router.get("/", listSectionsHandler);
 
 export default router;
