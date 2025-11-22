@@ -109,4 +109,38 @@
 
 // console.log(product.printProduct())
 
-console.log(Error)
+// console.log(Error)
+
+// class User {
+//     constructor() {
+//     }
+// }
+
+// class Vehicle {
+//   constructor(name, plateNumber) {
+//     this.name = name;
+//     this.platNumber = plateNumber;
+//   }
+
+//   info() {
+//     return `${this.name} has ${this.platNumber} plate number`;
+//   }
+// }
+
+// class Car extends Vehicle {
+//     constructor(name, platNumber, mialage) {
+//         super(name, platNumber);
+//         this.mialage = mialage
+//     }
+
+//     info(){
+//         return `${super.info()} and ${this.mialage} mialage`
+//     }
+// }
+
+// const audi = new Car('audi', 10, 20);
+// console.log(audi.info());
+
+const err = new Error('no error');
+console.log(err)
+
