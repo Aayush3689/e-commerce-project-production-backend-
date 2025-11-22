@@ -23,6 +23,8 @@
     "#/*": "./src/*",
     "#modules/*": "./src/modules/*",
     "#config/*": "./src/config/*",
-    "#loaders/*": "./src/loaders/*"
+    "#loaders/*": "./src/loaders/*",
+    "#middlewares/*": "./src/middlewares/*",
+    "#utils/*": "./src/utils/*"
   }
 }

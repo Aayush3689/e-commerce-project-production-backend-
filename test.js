@@ -141,6 +141,9 @@
 // const audi = new Car('audi', 10, 20);
 // console.log(audi.info());
 
-const err = new Error('no error');
-console.log(err)
+// const err = new Error('no error');
+// console.log(err)
+
+import { ApiError } from "#utils/ApiError.js";
+throw new ApiError(1000, 'mera error');
 
